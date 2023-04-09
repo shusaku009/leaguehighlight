@@ -35,5 +35,3 @@ module LeagueHighlight
     config.generators.system_tests = nil
   end
 end
-
-config.autoload_ignore = ["app/channels/application_cable/connection 2.rb"]
