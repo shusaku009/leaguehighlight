@@ -33,5 +33,8 @@ module LeagueHighlight
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # Zeitwerkに対して、Connection 2モジュールを読み込まないように設定
+    config.autoload_ignore = ["app/channels/application_cable/connection 2.rb"]
   end
 end
