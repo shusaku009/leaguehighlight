@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe('HealthCheks', type: :request) do
+RSpec.describe('HealthChecks', type: :request) do
   describe 'ヘルスチェック' do
     it '200のHTTPステータスが返る' do
       get '/health_check'
