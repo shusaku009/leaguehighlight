@@ -531,26 +531,26 @@ Version: 1.0
 }
  .bg-primary, .btn-primary, .btn-outline-primary:hover, .badge-primary {
      border-color: transparent !important;
-     background: #ff516b;
+     background: #ffc107;
     /* Old browsers */
-     background: -moz-linear-gradient(-45deg, #ff516b 0%, #826cfd 100%);
+     background: -moz-linear-gradient(-45deg, #FFBB1E 0%, #FFBB1E 100%);
     /* FF3.6-15 */
-     background: -webkit-linear-gradient(-45deg, #ff516b 0%,#826cfd 100%);
+     background: -webkit-linear-gradient(-45deg, #FFBB1E 0%,#FFBB1E 100%);
     /* Chrome10-25,Safari5.1-6 */
-     background: linear-gradient(135deg, #ff516b 0%,#826cfd 100%);
+     background: linear-gradient(135deg, #FFBB1E 0%,#FFBB1E 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff516b', endColorstr='#826cfd',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */
 }
  .btn-outline-primary{
-     border-color: #ff516b;
-     color: #ff516b;
+     border-color: #FFBB1E;
+     color: #FFBB1E;
 }
  .text-primary{
-     color: #ff516b !important;
+     color: #ffc107 !important;
 }
  .progress-bar{
-     background-color: #ff516b;
+     background-color: #ffc107;
 }
  .bg-success, .btn-success, .btn-outline-success:hover, .badge-success {
      border-color: transparent !important;
@@ -575,15 +575,13 @@ Version: 1.0
  .bg-warning, .btn-warning, .btn-outline-warning:hover, .badge-warning {
      border-color: transparent !important;
      background: #ffc107;
-    /* Old browsers */
-     background: -moz-linear-gradient(-45deg, #ffc107 1%, #fffc07 100%);
-    /* FF3.6-15 */
-     background: -webkit-linear-gradient(-45deg, #ffc107 1%,#fffc07 100%);
-    /* Chrome10-25,Safari5.1-6 */
-     background: linear-gradient(135deg, #ffc107 1%,#fffc07 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc107', endColorstr='#fffc07',GradientType=1 );
-    /* IE6-9 fallback on horizontal gradient */
+     /*Oldbrowsers*/background: -moz-linear-gradient(-45deg, #ffc107 1%, #fffc07 100%);
+     /*FF3.6-15*/background: -webkit-linear-gradient(-45deg, #ffc107 1%,#fffc07 100%);
+     /*Chrome10-25,Safari5.1-6*/background: linear-gradient(135deg, #ffc107 1%,#fffc07 100%);
+     /*W3C,IE10+,FF16+,Chrome26+,Opera12+,Safari7+*/filter:;
+     progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc107', endColorstr='#fffc07',GradientType=1 );
+         /* IE6-9 fallback on horizontal gradient */:;
+     -webkit-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc107', endColorstr='#fffc07',GradientType=1 );
 }
  .btn-outline-warning{
      border-color: #ffc107;
@@ -594,23 +592,23 @@ Version: 1.0
 }
  .bg-danger, .btn-danger, .btn-outline-danger:hover, .badge-danger{
      border-color: transparent !important;
-     background: #ff253a;
+     background: #ffc107;
     /* Old browsers */
-     background: -moz-linear-gradient(-45deg, #ff253a 0%, #ff8453 100%);
+     background: -moz-linear-gradient(-45deg, #ffc107 0%, #ffc107 100%);
     /* FF3.6-15 */
-     background: -webkit-linear-gradient(-45deg, #ff253a 0%,#ff8453 100%);
+     background: -webkit-linear-gradient(-45deg, #ffc107 0%,#ffc107 100%);
     /* Chrome10-25,Safari5.1-6 */
-     background: linear-gradient(135deg, #ff253a 0%,#ff8453 100%);
+     background: linear-gradient(135deg, #ffc107 0%,#ffc107 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff253a', endColorstr='#ff8453',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */
 }
  .btn-outline-danger{
-     border-color: #ff253a;
-     color: #ff253a;
+     border-color: #ffc107;
+     color: #ffc107;
 }
  .text-danger{
-     color: #ff253a !important;
+     color: #ffc107 !important;
 }
  .bg-secondary, .btn-secondary, .btn-outline-secondary:hover, .badge-secondary{
      border-color: transparent !important;
