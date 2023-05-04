@@ -1,13 +1,13 @@
 <nav class="navbar navbar-expand navbar-light bg-white static-top osahan-nav sticky-top justify-content-around ">
   <div class="container-fluid">
-    <%= link_to image_tag('logo.png', size: '200x38',class: 'navbar-brand'), '/' %>
+    <%= link_to image_tag('logo.png', size: '200x38', class: 'navbar-brand'), '/' %>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>user
   </button>
   <!-- Navbar Search -->
         <form class="d-none d-md-inline-block form-inline mr-auto mr-0 mr-md-5 my-2 my-md-0 osahan-navbar-search">
             <div class="input-group">
-              <input type="text" class="form-control" autocomplete="on" placeholder="Search for...">
+              <input type="text" class="form-control " autocomplete="on" placeholder="Search for...">
               <div class="input-group-append">
                 <button class="btn btn-light" type="button">
                 <i class="fas fa-search"></i>
@@ -22,6 +22,9 @@
       </li>
       <li class="nav-item">
         <%= link_to '会員登録', signup_path, class: 'btn btn-outline-warning' %>
+      </li>
+      <li class="nav-item ">
+        <%= link_to 'ログアウト', logout_path, class: 'nav-link', data: { turbo_method: :delete, turbo_confirm: 'ログアウトします' } %>
       </li>
       </ul>
     </div>
