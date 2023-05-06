@@ -5,9 +5,10 @@ ENV TZ=Asia/Tokyo
 
 WORKDIR ${ROOT}
 
-RUN apt-get update; \
-  apt-get install -y --no-install-recommends \
-		mariadb-client tzdata
+RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - \
+    && apt-get update -qq \
+    && apt-get install -y nodejs \
+    && npm install -g yarn
 
 COPY Gemfile ${ROOT}
 COPY Gemfile.lock ${ROOT}
